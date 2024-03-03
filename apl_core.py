@@ -1,7 +1,7 @@
 # APL.py
 # 1. getting the prompt of the programming language (asa)
-from open_ai_conn import Open_AI
-from python_runner import PythonRunner
+from .open_ai_conn import Open_AI
+from .python_runner import PythonRunner
 
 
 class APL:

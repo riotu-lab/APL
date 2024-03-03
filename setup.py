@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="APL",  # Replace with your package name
+    name="apl",  # Replace with your package name
     version="0.1",  # The initial release version
     packages=find_packages(),  # Automatically find and include all packages
     description="The APL (Arabic Programming Language) Library provides functionality for translating code written in Arabic according to the APL specification into executable Python code. This documentation outlines the usage and functionality of the `APL` class within the library",
@@ -11,12 +11,12 @@ setup(
     author_email="ssibaee@psu.edu.sa",
     url="https://github.com/riotu-lab/APL",  # Optional
     install_requires=[
-        openai,
+        'openai',
     ],
     python_requires='>=3.6',  # Specify the minimum Python version required
     classifiers=[
         # Choose your license as you wish
         'License ::  MIT License',
-        'Programming Language :: Python :: 3.8,
+        'Programming Language :: Python :: 3.8'
     ],
 )
