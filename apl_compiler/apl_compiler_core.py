@@ -1,10 +1,9 @@
-# APL.py
+# apl_core.py
 # 1. getting the prompt of the programming language (asa)
-from .open_ai_conn import Open_AI
-from .python_runner import PythonRunner
+from apl_compiler.openai_conn.open_ai_conn import Open_AI
+from apl_compiler.python_runner import PythonRunner
 
-
-class APL:
+class APLCompiler:
   def __init__(self, API):
     ''' this object is used to to get the API object that could get the code from the user according to the APL specification
     then he can run the code '''

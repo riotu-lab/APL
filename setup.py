@@ -1,15 +1,15 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="apl",  # Replace with your package name
+    name="apl-compiler",  # Replace with your package name
     version="0.1",  # The initial release version
     packages=find_packages(),  # Automatically find and include all packages
-    description="The APL (Arabic Programming Language) Library provides functionality for translating code written in Arabic according to the APL specification into executable Python code. This documentation outlines the usage and functionality of the `APL` class within the library",
+    description="APL (Arabic Programming Language) Compiler - A tool for translating Arabic code into executable Python code, based on the APL specification.",
     long_description=open('README.md').read(),
     long_description_content_type="text/markdown",  # This is important for a Markdown README
     author="Serry Sibaee",
     author_email="ssibaee@psu.edu.sa",
-    url="https://github.com/riotu-lab/APL",  # Optional
+    url="https://github.com/riotu-lab/apl-compiler",  # Optional
     install_requires=[
         'openai',
     ],
