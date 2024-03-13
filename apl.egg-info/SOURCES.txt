@@ -1,8 +1,0 @@
-LICENSE
-README.md
-setup.py
-apl.egg-info/PKG-INFO
-apl.egg-info/SOURCES.txt
-apl.egg-info/dependency_links.txt
-apl.egg-info/requires.txt
-apl.egg-info/top_level.txt
